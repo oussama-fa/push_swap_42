@@ -51,10 +51,10 @@ void	apply(t_node **stack_a, t_node **stack_b, char *comp)
 
 int	check_line(char *line)
 {
-	int		i;
-	const char	*lines[] = {"pa\n", "pb\n", "sa\n", "sb\n", "ss\n", "ra\n",
-		"rb\n", "rr\n", "rra\n", "rrb\n", "rrr\n", NULL};
+	int			i;
 
+	auto char *lines[] = {"pa\n", "pb\n", "sa\n", "sb\n", "ss\n", "ra\n",
+		"rb\n", "rr\n", "rra\n", "rrb\n", "rrr\n", NULL};
 	i = 0;
 	while (lines[i])
 		if (!ft_strcmp(lines[i++], line))
