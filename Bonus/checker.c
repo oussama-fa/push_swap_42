@@ -44,7 +44,7 @@ void	apply(t_node **stack_a, t_node **stack_b, char *comp)
 	else if (!ft_strcmp(comp, "rra\n"))
 		rra(stack_a);
 	else if (!ft_strcmp(comp, "rrb\n"))
-		rrb(stack_a);
+		rrb(stack_b);
 	else if (!ft_strcmp(comp, "rrr\n"))
 		rrr(stack_a, stack_b);
 }
