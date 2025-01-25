@@ -6,7 +6,7 @@
 /*   By: oufarah <oufarah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/19 02:12:44 by oufarah           #+#    #+#             */
-/*   Updated: 2025/01/24 17:17:40 by oufarah          ###   ########.fr       */
+/*   Updated: 2025/01/25 22:26:21 by oufarah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,8 +51,9 @@ void	apply(t_node **stack_a, t_node **stack_b, char *comp)
 
 int	check_line(char *line)
 {
-	char	*lines[12] = {"pa\n", "pb\n", "sa\n", "sb\n", "ss\n", "ra\n", "rb\n", "rr\n", "rra\n", "rrb\n", "rrr\n", NULL};
 	int		i;
+	const char	*lines[] = {"pa\n", "pb\n", "sa\n", "sb\n", "ss\n", "ra\n",
+		"rb\n", "rr\n", "rra\n", "rrb\n", "rrr\n", NULL};
 
 	i = 0;
 	while (lines[i])
