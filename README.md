@@ -14,9 +14,9 @@ The project consists of two programs:
 
 Here are some screenshots of my project implementation:
 
-<img src="screen.png" alt="Push Swap Screenshot 1" width="500"/>
-
----
+<div align="center">
+  <img src="screen.png" alt="Push Swap Screenshot 1" width="500"/>
+</div>
 
 ## Features
 
@@ -116,5 +116,4 @@ The performance of the algorithm is measured by the number of operations it take
 
 ---
 
-# Enjoy sorting! 🚀
-
+```<div align="center"> <h2>Enjoy sorting! 🚀</h2> </div> ```
