@@ -6,7 +6,7 @@
 /*   By: oufarah <oufarah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/19 02:12:44 by oufarah           #+#    #+#             */
-/*   Updated: 2025/01/25 22:26:21 by oufarah          ###   ########.fr       */
+/*   Updated: 2025/01/30 19:17:41 by oufarah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,8 +94,8 @@ int	main(int ac, char **av)
 		return (0);
 	if (av[1][0] == '\0')
 		return (write(2, "Error\n", 6), 1);
-	lines = get_lines();
 	stack_a = parsing(ac, av);
+	lines = get_lines();
 	stack_b = NULL;
 	while (lines)
 	{
