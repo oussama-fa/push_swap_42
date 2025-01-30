@@ -116,4 +116,4 @@ The performance of the algorithm is measured by the number of operations it take
 
 ---
 
-```<div align="center"> <h2>Enjoy sorting! 🚀</h2> </div> ```
+<div align="center"> <h2>Enjoy sorting! 🚀</h2> </div>
